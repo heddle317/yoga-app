@@ -1,0 +1,9 @@
+*.swp
+*.swo
+*.pyc
+keys.sh
+static/.webassets-cache/
+static/gen
+*.psd
+.DS_Store
+cffi/
