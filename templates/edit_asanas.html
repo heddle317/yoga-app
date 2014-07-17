@@ -30,6 +30,7 @@
                         {{ asana_item.show("{[{asana.uuid}]}", "{[{asana.image_url}]}", "{[{asana.name}]}", "{[{asana.created_ago}]}") }}
                     </div>
                     <div class='col-md-8'>
+                        <p ng-bind='asana.description'></p>
                     </div>
                 </div>
                 <div class='panel-footer text-right'>
